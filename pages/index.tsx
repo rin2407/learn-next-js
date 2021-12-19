@@ -1,3 +1,4 @@
+import { Button } from '@mui/material';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -12,6 +13,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>Welcome to Next.js! </div>
+      <div>
+      <Button variant="contained">Hello World</Button>
+      </div>
     </div>
   );
 };
